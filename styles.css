@@ -1,6 +1,71 @@
 /* This is where styles are defined for your page. */
-/* One style is provided as example. */
 
-h1 {
-    color: green;
+body {
+	background-image: url('images/Xanadu_on_Map_of_Asia.JPG');
+	font-family: serif; 
+	opacity: 0.9;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: sans-serif;
+}
+header.page-header {
+	padding: 1rem;
+	background: whitesmoke;
+	margin-left: 250px;
+	margin-right: 250px; 
+	border-top-left-radius: 10px 5px;
+	border-top-right-radius: 10px;
+}
+.page-header h1 {
+	margin-bottom: 0;
+}
+.page-header p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.page-header small {
+	font-size: medium;
+}
+aside.more-info {
+	background: whitesmoke;
+	opacity: 0.9;
+	margin-right: 250px; 
+	float: right;
+	padding: 1rem;
+}
+aside.more-info img {
+	width: 200px;
+	height: auto;
+}
+.social-links li {
+	list-style-type: none;
+	display: inline;
+	padding-right: 15px;
+}
+section#content {
+	padding: 1rem;
+	background: whitesmoke;
+	margin-left: 250px;
+	margin-right: 250px; 
+}
+.poem {
+	list-style-type: none;
+}
+.poem .firstcharacter { 
+	float: left; color: #903; font-size: 75px; line-height: 60px; padding-top: 4px; padding-right: 8px; padding-left: 3px;
+}
+.poem {
+	font-size: large;
+	line-height: 1.8;
+}
+.page-footer {
+	padding: 1rem;
+	background: whitesmoke;
+	margin-top: 0;
+	margin-left: 250px;
+	margin-right: 250px; 
+	font-family: sans-serif;
+	font-size: small;
+	border-bottom-left-radius: 10px 5px;
+	border-bottom-right-radius: 10px;
 }
